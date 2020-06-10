@@ -21,13 +21,13 @@ class push:
 
         if len(lines) > 1:
             if (datetime.strptime(ti_string, "%H:%M:%S") - datetime.strptime(last_line[2], "%H:%M:%S")) > timedelta(minutes=2):
-                alert_teams.alert_teams()
+                alert_teams.alert_teams(hostname, dt_string, ti_string)
                 
                 with open(output_csv,"a") as f:
                     f.write(hostname + "," + dt_string + "," + ti_string + "," + ip_address)
                     f.write("\n")
         else:
-            alert_teams.alert_teams()
+            alert_teams.alert_teams(hostname, dt_string, ti_string)
             with open(output_csv,"a") as f:
                 f.write(hostname + "," + dt_string + "," + ti_string + "," + ip_address)
                 f.write("\n")

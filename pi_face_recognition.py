@@ -88,7 +88,7 @@ while True:
 			# will select first entry in the dictionary)
 			name = max(counts, key=counts.get)
 			
-			if name != "eaaa":
+			if name != "elise":
 				cv2.imwrite("alert.png", frame)
 				alert.push()
 		
