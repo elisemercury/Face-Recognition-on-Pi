@@ -1,4 +1,4 @@
-hostname,date,timestamp,ref
+hostname,date,timestamp,host_ip
 ELANDMAN-L8Z52,08-06-2020,16:58:01,08-06-2020_16:58:01.png
 ELANDMAN-L8Z52,08-06-2020,17:00:55,08-06-2020_17:00:55.png
 raspberrypi,10-06-2020,17:10:37,10-06-2020_17:10:37.png
