@@ -12,7 +12,7 @@ For training the model, you will need a folder "dataset" containing at least two
 One folder should be renamed to your first name, the second folder should be renamed to "unknown".
 The folders should contain at least 5 unknown images, and 10 images of you.
 
-Change ```YOUR_NAME``` in line 91 in the file pi_face_recognition.py to your name.
+Change ```YOUR_NAME``` in line 91 in the file pi_face_recognition.py to your name, the same name as the subfolder with your images in the dataset folder.
 
 Change ```TEAMS-TOKEN``` in line 5 in the file alert_teams.py to the token of your Webex Teams bot created [here](https://developer.webex.com/my-apps/new/bot). 
 
