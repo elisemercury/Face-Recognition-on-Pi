@@ -1,4 +1,4 @@
-# Face-Recognition-on-Pi
+# Face Recognition on Pi
 Train a machine learning model for real-time face recognition on the Raspberry Pi 4. As soon as the model recognizes an unknown person, it sends a notification including date, time and a picture of the person via Cisco Webex Teams.
 
 ## Usage
@@ -20,3 +20,9 @@ Train model with with
 Run the model with real time face recognition and alerting with
 
 ```python3 pi_face_recognition.py --cascade haarcascade_frontalface_default.xml --encodings encodings.pickle```
+
+## Sources
+
+[Face Recognition on the Raspberry Pi](https://www.pyimagesearch.com/2018/06/25/raspberry-pi-face-recognition/) by Adrian Rosebrock 
+
+[Cisco Webex for Developers](https://developer.webex.com/docs/bots)
